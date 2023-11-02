@@ -1,0 +1,7 @@
+modifier légèrement les textes sur sites
+réferencement local grace aux microdonnées et resultats enrichis = schema.org
+balise meta pour savoir cmt afficher lien vers site internet
+-accesibilité
+-rapports d'optimisation google rich snipet / extension waves
+
+
