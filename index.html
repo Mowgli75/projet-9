@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta charset="UTF-8" />
     <title>Nina Carducci photographie</title>
 	<meta name="description" content="Site de photographie de Nina Carducci">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,12 +21,42 @@
   <meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose de saisir ces merveilleux moments d'une vie.">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital@1&display=swap');
-    </style>
-    <meta charset="UTF-8" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": ["LocalBusiness", "Service"],
+        "name": "Nina Carducci",
+        "description": "Nina Carducci, photographe professionnelle à Bordeaux",
+        "image": "https://mowgli75.github.io/projet-9/assets/images/nina.png",
+        "url": "https://mowgli75.github.io/projet-9/",
+        "telephone": "0556677889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+          },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "44.8466732",
+          "longitude": "-0.6065805"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "lundi",
+            "mardi",
+            "mercredi",
+            "jeudi",
+            "vendredi"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        "priceRange" : "50€ - 400€"
+      }
+      </script>
   </head>
   <body>
 	<header>
@@ -126,7 +157,7 @@
     </section>
     <section id="about">
       <div class="picture left">
-        <img src="./assets/images/nina (1).webp" width="340git" height="339" alt="Nina Carducci" />
+        <img src="./assets/images/nina.webp" width="500" height="500" alt="Nina Carducci" />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
@@ -308,8 +339,7 @@
       </div>
     </section>
 </footer>
-<!-- <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -317,41 +347,6 @@
 ></script>
 <script src="./assets/js/maugallery.js"></script>
 <script src="./assets/js/scripts.js"></script>
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": ["LocalBusiness", "Service"],
-    "name": "Nina Carducci",
-    "description": "Nina Carducci, photographe professionnelle à Bordeaux",
-    "image": "https://mowgli75.github.io/projet-9/assets/images/nina.png",
-    "url": "https://mowgli75.github.io/projet-9/",
-    "telephone": "0556677889",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "68 avenue Alsace-Lorraine",
-      "addressLocality": "Bordeaux",
-      "postalCode": "33200",
-      "addressCountry": "FR"
-      },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "44.8466732",
-      "longitude": "-0.6065805"
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "lundi",
-        "mardi",
-        "mercredi",
-        "jeudi",
-        "vendredi"
-      ],
-      "opens": "10:00",
-      "closes": "19:00"
-    },
-    "priceRange" : "50€ - 400€"
-  }
-  </script>
+
   </body>
 </html>
